@@ -1,8 +1,8 @@
 import struct
 
 # Use 'rb' mode for reading binary files
-with open(r'C:\Users\metal\TEST.BIN', 'rb') as read_file:
-    with open(r'C:\Users\metal\TEST.txt', 'w') as write_file:
+with open(r'Path\to\TEST.BIN', 'rb') as read_file:
+    with open(r'Path\to\TEST.txt', 'w') as write_file:
         # Read 4 bytes at a time from the binary file
         chunk = read_file.read(4)
         count = 0
